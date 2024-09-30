@@ -2,7 +2,7 @@ export const Details = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-28 space-y-4">
       <img src="/me.png" alt="" className="w-[231px] h-[231px] rounded-full " />
-      <div className="flex justify-center flex-col items-center space-y-1 mt-3">
+      <div className="flex justify-center flex-col items-center space-y-6 mt-3">
         <div className="ont-semibold gap-6 mt-10 text-6xl font-poppins">
           ANUJ SHRIVASTAVA!
         </div>
@@ -20,7 +20,7 @@ export const Details = () => {
         </p>
         <a
           href="mailto:anujshrivastava982@gmail.com"
-          className="border border-gray-500 py-2 px-6 mt-6 rounded-3xl font-semibold"
+          className="border border-gray-500 py-2 px-6 m-4 rounded-3xl font-semibold hover:bg-white hover:text-black"
         >
           Contact Me
         </a>

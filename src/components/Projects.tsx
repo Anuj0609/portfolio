@@ -5,12 +5,14 @@ export const Projects = () => {
       name: "WeatherApp",
       description:
         "Developed a user-friendly weather app featuring an intuitive interface and integrated blog, utilizing Next.js for seamless performance.",
+      link: "https://climecast.vercel.app/",
     },
     {
       image: "/todolist.png",
       name: "To-Do App",
       description:
         "Developed a user-friendly to-do app using Next.js that allows users to create, edit, and delete tasks, helping them stay organized and boost productivity.",
+      link: "https://myparcha.vercel.app/",
     },
   ];
 
@@ -23,7 +25,9 @@ export const Projects = () => {
 
       <div className="flex flex-row justify-center flex-wrap w-1/2">
         {itemsArray.map((item, index) => (
-          <div key={index} className="m-4 p-4 flex flex-row  ">
+          <a key={index} className="m-4 p-4 flex flex-row  "
+          href={item.link}
+          target="_blank">
             <img
               src={item.image}
               alt={item.name}
@@ -35,7 +39,7 @@ export const Projects = () => {
               </div>
               <p>{item.description}</p>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>

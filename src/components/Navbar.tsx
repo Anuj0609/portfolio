@@ -5,12 +5,12 @@ export const Navbar = () => {
         <img src="/logo.png" alt="" />
       </div>
       <div className="flex flex-row space-x-2 mr-8">
-        <button className="bg-black text-white px-2 rounded-lg py-1">
-          About me
-        </button>
-        <button className="bg-white text-black border border-black px-2 py-1 rounded-lg">
-          contact
-        </button>
+        <a
+          className=" text-white font-extralight mr-8 text-xl"
+          href="mailto:anujshrivastava982@gmail.com"
+        >
+          Contact
+        </a>
       </div>
     </div>
   );
