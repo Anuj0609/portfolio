@@ -1,13 +1,13 @@
 export const Projects = () => {
   const itemsArray = [
     {
-      image: "climecast.png",
+      image: "/climecast.png",
       name: "WeatherApp",
       description:
         "Developed a user-friendly weather app featuring an intuitive interface and integrated blog, utilizing Next.js for seamless performance.",
     },
     {
-      image: "todolist.png",
+      image: "/todolist.png",
       name: "To-Do App",
       description:
         "Developed a user-friendly to-do app using Next.js that allows users to create, edit, and delete tasks, helping them stay organized and boost productivity.",

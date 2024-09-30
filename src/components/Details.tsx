@@ -1,7 +1,7 @@
 export const Details = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-28 space-y-4">
-      <img src="me.png" alt="" className="w-[231px] h-[231px] rounded-full " />
+      <img src="/me.png" alt="" className="w-[231px] h-[231px] rounded-full " />
       <div className="flex justify-center flex-col items-center space-y-1 mt-3">
         <div className="ont-semibold gap-6 mt-10 text-6xl font-poppins">
           ANUJ SHRIVASTAVA!
