@@ -16,7 +16,7 @@ export const AboutMe = () => {
         With a fervor for crafting elegant solutions, I navigate the
         ever-evolving landscape of software development. My journey involves
         translating concepts into code, creating seamless user experiences, and
-        constantly pushing the boundaries of what's possible.
+        constantly pushing the boundaries of what&apos;s possible.
       </p>
      
     </div>
