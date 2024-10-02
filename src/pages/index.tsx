@@ -7,13 +7,13 @@ import { SocialContact } from "@/components/SocialContact";
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
       <Navbar />
       <Details />
       <AboutMe />
       <Experience />
       <Projects />
-      <SocialContact/>
+      <SocialContact />
     </div>
   );
 }
