@@ -34,7 +34,7 @@ export const Navbar = () => {
         {/* Resume Download */}
         <a
           className="flex items-center text-white text-xs sm:text-xl hover:text-green-400 transition-colors duration-300"
-          href="/Anuj_Lal_Shrivastava_Frontend_Developer_Resume.pdf" // Make sure your resume is in public folder
+          href="/Anuj_Lal_Shrivastava_Frontend_Developer_Resume.pdf.pdf" // Make sure your resume is in public folder
           download
         >
           <HiOutlineDownload className="mr-1" /> Resume
