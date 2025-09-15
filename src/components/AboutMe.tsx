@@ -11,22 +11,39 @@ export const AboutMe = () => {
 
       {/* Description */}
       <p className="px-5 md:w-[720px] text-center text-sm md:text-base text-gray-300 leading-relaxed animate-fade-in-up">
-        As a passionate{" "}
-        <span className="text-green-400 font-medium">Software Engineer</span>, I
-        thrive on the intricate dance between{" "}
-        <span className="text-blue-400">logic</span> and{" "}
-        <span className="text-pink-400">creativity</span>. Currently immersed in
-        the dynamic world of web development, my expertise centers around{" "}
-        <span className="text-yellow-400">React, Next.js</span>, and modern web
-        technologies, where I seamlessly blend technology with innovation.
+        I am{" "}
+        <span className="text-yellow-400 font-medium">Anuj Shrivastava</span>, a
+        passionate{" "}
+        <span className="text-green-400 font-medium">Frontend Developer</span>
+        with a focus on <span className="text-cyan-400">React</span> and
+        <span className="text-blue-400"> Next.js</span>. I specialize in
+        creating
+        <span className="text-pink-400">
+          {" "}
+          dynamic, responsive, and user-friendly web applications
+        </span>
+        , seamlessly blending <span className="text-purple-400">
+          logic
+        </span>{" "}
+        with
+        <span className="text-red-400"> creativity</span>.
         <br />
         <br />
-        With a fervor for crafting{" "}
-        <span className="text-cyan-400">elegant solutions</span>, I navigate the
-        ever-evolving landscape of software development. My journey involves
-        translating concepts into code, creating{" "}
-        <span className="text-pink-400">seamless user experiences</span>, and
-        constantly pushing the boundaries of what&apos;s possible.
+        Over the past year, I have built projects like a
+        <span className="text-green-400"> weather app</span>, a
+        <span className="text-yellow-400"> to-do list app</span>, and several
+        landing pages, focusing on{" "}
+        <span className="text-cyan-400">performance optimization</span>,
+        <span className="text-pink-400"> responsive design</span>, and
+        <span className="text-blue-400"> intuitive interfaces</span>. By
+        leveraging
+        <span className="text-purple-400"> Tailwind CSS</span> and modern web
+        technologies, I deliver polished, high-quality solutions that exceed
+        expectations.
+        <br />
+        <br />I thrive on collaborating with clients, translating ideas into
+        code, and constantly pushing the boundaries of what's possible in the{" "}
+        <span className="text-red-400">frontend ecosystem</span>.
       </p>
     </div>
   );

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 export const Projects = () => {
   const itemsArray = [
     {
@@ -41,22 +43,22 @@ export const Projects = () => {
       {/* Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full md:w-3/4">
         {itemsArray.map((item, index) => (
-          <a
+          <motion.a
             key={index}
-            className="group p-5 rounded-2xl bg-gray-800/40 hover:bg-gray-800/60 hover:scale-105 transform transition duration-300 shadow-md hover:shadow-xl flex flex-col md:flex-row"
             href={item.link}
             target="_blank"
+            className="p-5 rounded-2xl bg-gray-800/40 shadow-md flex flex-col md:flex-row items-center"
+            whileHover={{ rotateY: 5, rotateX: -3, scale: 1.05 }}
+            transition={{ type: "spring", stiffness: 200, damping: 12 }}
           >
             {/* Image */}
             <div
-              className="w-full md:w-48 h-40 md:h-48 rounded-lg overflow-hidden bg-cover bg-center group-hover:scale-105 transition duration-300"
-              style={{
-                backgroundImage: `url(${item.image})`,
-              }}
-            ></div>
+              className="w-full md:w-64 h-48 rounded-lg overflow-hidden bg-cover bg-center shadow-lg"
+              style={{ backgroundImage: `url(${item.image})` }}
+            />
 
             {/* Content */}
-            <div className="flex flex-col justify-center space-y-3 mt-4 md:mt-0 md:ml-6">
+            <div className="flex flex-col justify-center space-y-3 mt-4 md:mt-0 md:ml-6 text-center md:text-left">
               <div className="font-bold text-xl md:text-2xl text-gray-200 group-hover:text-cyan-400 transition">
                 {item.name}
               </div>
@@ -64,7 +66,7 @@ export const Projects = () => {
                 {item.description}
               </p>
             </div>
-          </a>
+          </motion.a>
         ))}
       </div>
     </div>
