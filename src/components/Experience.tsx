@@ -2,26 +2,37 @@ import { Pill } from "./Pill";
 
 export const Experience = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-28 space-y-1">
+    <div className="flex flex-col justify-center items-center mt-28 space-y-6">
+      {/* Heading */}
       <div className="font-semibold text-3xl md:text-6xl">EXPERIENCE</div>
-      <div className="text-transparent font-light pb-5 bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-400 text-sl">
+      <div className="text-transparent font-light bg-clip-text bg-gradient-to-r from-pink-500 to-yellow-400 text-sm">
         EXPLORE NOW
       </div>
-      <p className="px-5 text-sm md:w-[770px] text-center">
-        I have been working as a Freelance Frontend Developer, where I’ve built
-        responsive web applications using HTML, CSS, JavaScript, React, and
-        Next.js. I’ve successfully developed projects like a weather app and a
-        to-do list application, focusing on creating user-friendly interfaces
-        and optimizing performance.
+
+      {/* Description */}
+      <p className="px-5 text-sm md:w-[770px] text-center text-gray-300 leading-relaxed animate-fade-in">
+        I have been working as a{" "}
+        <span className="text-yellow-400 font-medium">
+          Freelance Frontend Developer
+        </span>
+        , where I’ve built responsive web applications using{" "}
+        <span className="text-cyan-400">HTML, CSS, JavaScript, React,</span>
+        and <span className="text-cyan-400">Next.js</span>. I’ve successfully
+        developed projects like a weather app and a to-do list application,
+        focusing on creating user-friendly interfaces and optimizing
+        performance.
         <br />
         <br />
-        By leveraging modern web frameworks like Tailwind CSS, I’ve ensured
-        design consistency and responsiveness across different devices. My
-        freelance work has allowed me to work directly with clients, gather
+        By leveraging modern frameworks like{" "}
+        <span className="text-pink-400">Tailwind CSS</span>, I’ve ensured design
+        consistency and responsiveness across different devices. My freelance
+        work has allowed me to collaborate directly with clients, gather
         requirements, and deliver solutions that enhance usability and exceed
         expectations.
       </p>
-      <div className="flex md:justify-center md:flex-row flex-col gap-6">
+
+      {/* Skill Pills */}
+      <div className="flex md:justify-center md:flex-row flex-col gap-6 mt-6">
         <Pill>JavaScript</Pill>
         <Pill>Tailwind CSS</Pill>
         <Pill>React.js</Pill>
