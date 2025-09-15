@@ -42,8 +42,8 @@ export const AboutMe = () => {
         expectations.
         <br />
         <br />I thrive on collaborating with clients, translating ideas into
-        code, and constantly pushing the boundaries of what's possible in the{" "}
-        <span className="text-red-400">frontend ecosystem</span>.
+        code, and constantly pushing the boundaries of what&apos;s possible in
+        the <span className="text-red-400">frontend ecosystem</span>.
       </p>
     </div>
   );
